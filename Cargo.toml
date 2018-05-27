@@ -1,6 +1,4 @@
-[package]
-name = "apate"
-version = "0.1.0"
-authors = ["dalei <guoyunlei@live.com>"]
-
-[dependencies]
+[workspace]
+members = [
+  "lib",
+]
