@@ -1,0 +1,13 @@
+[package]
+name = "fake"
+version = "0.0.1"
+authors = ["dalei <guoyunlei@live.com>"]
+description = "Easy to generate fake data."
+keywords = ["fake", "random", "generator"]
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+rand = "0.3"
+chrono = { version = "0.4", optional = true }
+http = { version = "0.1", optional = true }
