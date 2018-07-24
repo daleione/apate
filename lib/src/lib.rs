@@ -1,6 +1,8 @@
 extern crate actix_web;
-use actix_web::HttpRequest;
 
-pub fn index(_req: HttpRequest) -> &'static str {
+use actix_web::{HttpRequest, Responder};
+
+
+pub fn index(_req: &HttpRequest) -> impl Responder {
     "Hello world!"
 }

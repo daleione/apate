@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["dalei <guoyunlei@live.com>"]
 
 [dependencies]
-actix-web = "0.6"
+actix-web = "0.7"
 listenfd = "0.3"
