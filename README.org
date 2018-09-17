@@ -2,6 +2,8 @@
 
 Apate is mock server write by Rust with a focus on ease-of-use, expressibility, and speed.
 
+** wechat
+
 ** Develop
    #+BEGIN_SRC shell
      cargo install systemfd cargo-watch  # install depencies
